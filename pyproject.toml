@@ -1,12 +1,17 @@
 [project]
 name = "garden-blog"
 version = "0.1.0"
-description = "Add your description here"
+authors = [
+    {name = "Helen Dobruk", email = "elena.dobruk@yandex.ru"},
+]
+description = "A personal blog about gardening"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "django>=5.1.7",
+]
 
-[dependency-groups]
-dev = [
+[tool.uv]
+dev-dependencies = [
     "ruff>=0.11.2",
 ]

@@ -1,7 +1,7 @@
 install:
 	uv sync
 
-run:
+dev:
 	uv run python manage.py runserver
 
 lint:
